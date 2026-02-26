@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Fitri Nur Annisa</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        /* =====================
+           GLOBAL STYLE
+        ====================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        body {
+            background-color: #eaeaea;
+            padding: 40px;
+        }
+
+        .cv-container {
+            max-width: 1000px;
+            margin: auto;
+            display: flex;
+            background-color: #ffffff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.15);
+        }
+
+        /* =====================
+           LEFT PANEL
+        ====================== */
+        .left-panel {
+            width: 35%;
+            background-color: #0b2c4d;
+            color: #ffffff;
+            padding: 30px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .profile img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid #ffffff;
+            object-fit: cover;
+        }
+
+        .left-panel h3 {
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 5px;
+        }
+
+        .left-panel p {
+            font-size: 14px;
+            margin: 6px 0;
+        }
+
+        .left-panel i {
+            margin-right: 8px;
+        }
+
+        /* =====================
+           SKILLS
+        ====================== */
+        .skill {
+            margin-bottom: 14px;
+            font-size: 14px;
+        }
+
+        .bar {
+            background-color: rgba(255,255,255,0.3);
+            height: 6px;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+
+        .fill {
+            width: 80%;
+            height: 100%;
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+
+        /* =====================
+           RIGHT PANEL
+        ====================== */
+        .right-panel {
+            width: 65%;
+            padding: 40px;
+        }
+
+        /* === NAME HEADING (OPTICALLY BALANCED) === */
+        .right-panel h1 {
+            font-family: "Times New Roman", Georgia, serif;
+            font-size: 38px;
+            color: #0b2c4d;
+            font-weight: 800;
+            line-height: 1.05;
+            letter-spacing: 0.6px;
+}
+
+        .subtitle {
+            margin-top: 10px;
+            margin-bottom: 25px;
+            font-size: 14px;
+            color: #555555;
+        }
+
+        /* === SECTION TITLES === */
+        .right-panel h2 {
+            font-family: "Times New Roman", Georgia, serif;
+            font-size: 20px;
+            color: #0b2c4d;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .right-panel p,
+        .right-panel li {
+            font-size: 14px;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        .right-panel ul {
+            padding-left: 18px;
+        }
+
+        /* =====================
+           ACHIEVEMENT
+        ====================== */
+        .achievement {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .achievement div {
+            width: 48%;
+            font-size: 14px;
+        }
+
+        /* =====================
+           RESPONSIVE
+        ====================== */
+        @media (max-width: 768px) {
+            .cv-container {
+                flex-direction: column;
+            }
+
+            .left-panel,
+            .right-panel {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv-container">
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+
+        <div class="profile">
+            <img src="fotocv.jpeg" alt="Profile Photo">
+        </div>
+
+        <h3>Contact</h3>
+        <p><i class="fa-solid fa-phone"></i> +62 812-5244-7480</p>
+        <p><i class="fa-solid fa-envelope"></i> annisa7@student.ub.ac.id</p>
+        <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/fitri-nur-annisa</p>
+        <p><i class="fa-brands fa-instagram"></i> ftrnsav_</p>
+
+        <h3>Education</h3>
+        <p><strong>2025 – 2029</strong></p>
+        <p>Brawijaya University</p>
+        <p>Bachelor of Information Systems</p>
+        <p>Faculty of Computer Science</p>
+
+        <h3>Skills</h3>
+
+        <div class="skill">
+            Critical Thinking & Analysis
+            <div class="bar"><div class="fill"></div></div>
+        </div>
+
+        <div class="skill">
+            Public Speaking
+            <div class="bar"><div class="fill"></div></div>
+        </div>
+
+        <div class="skill">
+            Observation & Detail Orientation
+            <div class="bar"><div class="fill"></div></div>
+        </div>
+
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right-panel">
+
+        <h1>FITRI NUR<br>ANNISA</h1>
+        <p class="subtitle">an undergraduate student at Universitas Brawijaya</p>
+
+        <h2>Professional Summary</h2>
+        <p>
+            Aspiring Data Analyst with a solid foundation in Java computational logic
+            and a TOEFL score of 543. Strong critical thinking and rapid data analysis
+            skills developed through debate competitions and KIRMAGO research,
+            complemented by extensive fieldwork experience.
+        </p>
+
+        <h2>Organizational & Research Activities</h2>
+        <ul>
+            <li>Participated in greenhouse management project.</li>
+            <li>Conducted Red Island Expedition to collect environmental data.</li>
+            <li>Organized Camara Beach clean-up and conservation.</li>
+        </ul>
+
+        <h2>Achievement</h2>
+
+        <div class="achievement">
+            <div>
+                <strong>2023</strong><br>
+                Scientific Olympiad<br>
+                Regency-Level Debate (LDBI)<br>
+                <em>1st Place Winner</em>
+            </div>
+
+            <div>
+                <strong>2024</strong><br>
+                Indonesian Debate Competition<br>
+                Regency-Level Debate (LDBI)<br>
+                <em>1st Place Winner</em>
+            </div>
+        </div>
+
+        <div class="achievement">
+            <div>
+                <strong>2024</strong><br>
+                Islamic Education Debate Competition<br>
+                <em>2nd Runner-Up</em>
+            </div>
+
+            <div>
+                <strong>2025</strong><br>
+                Golden English Proficiency Test<br>
+                <em>Score: 543 (GE-EPT)</em>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
